@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 99 102 241; /* indigo-500 */
+  --color-surface: 255 255 255;
+  --color-surface-muted: 249 250 251;
+  --color-text: 17 24 39;
+  --color-text-muted: 107 114 128;
+  --color-border: 229 231 235;
+}
+
+.dark {
+  --color-surface: 17 24 39;
+  --color-surface-muted: 31 41 55;
+  --color-text: 249 250 251;
+  --color-text-muted: 156 163 175;
+  --color-border: 55 65 81;
+}
+
+body {
+  @apply bg-[rgb(var(--color-surface))] text-[rgb(var(--color-text))] antialiased;
+  font-family: 'Inter', system-ui, sans-serif;
+}
