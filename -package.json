@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    // ... existing
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.6.82",
+    "@tiptap/react": "^2.10.3",
+    "@tiptap/pm": "^2.10.3",
+    "@tiptap/starter-kit": "^2.10.3",
+    "@tiptap/extension-link": "^2.10.3",
+    "react-syntax-highlighter": "^15.6.1",
+    "@types/react-syntax-highlighter": "^15.5.13"
+  }
+}
